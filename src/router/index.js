@@ -382,6 +382,18 @@ export const asyncRoutes = [
       }
     ]
   },
+  {
+    path: '/task',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/task/index'),
+        name: 'Task',
+        meta: { title: 'Task', icon: 'clipboard' }
+      }
+    ]
+  },
 
   // 404 page must be placed at the end !!!
   { path: '*', redirect: '/404', hidden: true }

@@ -39,3 +39,10 @@ export function updateArticle(data) {
     data
   })
 }
+
+export function getLocal() {
+  return request({
+    url: '/disp/api/datax/jobInfo/list',
+    method: 'get'
+  })
+}

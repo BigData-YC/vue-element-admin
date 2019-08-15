@@ -3,7 +3,8 @@
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
 
       <div class="title-container">
-        <h3 class="title">Login Form</h3>
+        <img :src="imgUrl" class="title">
+        <h3 class="title">Login Rolls-Royce </h3>
       </div>
 
       <el-form-item prop="username">
@@ -104,6 +105,7 @@ export default {
         username: [{ required: true, trigger: 'blur', validator: validateUsername }],
         password: [{ required: true, trigger: 'blur', validator: validatePassword }]
       },
+      imgUrl: require('E:/git_com/vue-element-admin/src/assets/logo/monkey.png'),
       passwordType: 'password',
       capsTooltip: false,
       loading: false,

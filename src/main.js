@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueResource from 'vue-resource'
 
 import Cookies from 'js-cookie'
 
@@ -32,6 +33,7 @@ if (process.env.NODE_ENV === 'production') {
   mockXHR()
 }
 
+Vue.use(VueResource)
 Vue.use(Element, {
   size: Cookies.get('size') || 'medium' // set element-ui default size
 })
