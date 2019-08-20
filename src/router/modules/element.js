@@ -61,22 +61,22 @@ const componentsRouter = {
       meta: { title: 'Transfer' }
     },
     {
-      path: 'mixin',
-      component: () => import('@/views/components-demo/mixin'),
-      name: 'ComponentMixinDemo',
-      meta: { title: 'Component Mixin' }
+      path: 'Tree',
+      component: () => import('@/views/elementUI/Tree'),
+      name: 'Tree',
+      meta: { title: 'Tree' }
     },
     {
-      path: 'back-to-top',
-      component: () => import('@/views/components-demo/back-to-top'),
-      name: 'BackToTopDemo',
-      meta: { title: 'Back To Top' }
+      path: 'Tag',
+      component: () => import('@/views/elementUI/Tag'),
+      name: 'Tag',
+      meta: { title: 'Tag' }
     },
     {
-      path: 'drag-dialog',
-      component: () => import('@/views/components-demo/drag-dialog'),
-      name: 'DragDialogDemo',
-      meta: { title: 'Drag Dialog' }
+      path: 'Loading',
+      component: () => import('@/views/elementUI/Loading'),
+      name: 'Loading',
+      meta: { title: 'Loading' }
     },
     {
       path: 'drag-select',
