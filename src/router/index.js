@@ -12,6 +12,7 @@ import chartsRouter from './modules/charts'
 import tableRouter from './modules/table'
 import nestedRouter from './modules/nested'
 import elementRouter from './modules/element'
+import formRouter from './modules/form'
 /**
  * Note: sub-menu only appear when route children.length >= 1
  * Detail see: https://panjiachen.github.io/vue-element-admin-site/guide/essentials/router-and-nav.html
@@ -185,6 +186,7 @@ export const asyncRoutes = [
   },
 
   /** when your routing map is too long, you can split it into small modules **/
+  formRouter,
   componentsRouter,
   chartsRouter,
   nestedRouter,

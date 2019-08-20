@@ -15,7 +15,7 @@ export default {
         confirmButtonText: '确定',
         callback: action => {
           this.$message({
-            type: 'info',
+            type: 'error',
             message: `action: ${action}`
           })
         }
@@ -83,7 +83,7 @@ export default {
         }
       }).then(action => {
         this.$message({
-          type: 'info',
+          type: 'error',
           message: 'action: ' + action
         })
       })

@@ -8,57 +8,57 @@ const componentsRouter = {
   redirect: 'noRedirect',
   name: 'elementUI',
   meta: {
-    title: 'ElementUI',
+    title: 'Form',
     icon: 'component'
   },
   children: [
     {
-      path: 'MessageBox',
-      component: () => import('@/views/elementUI/MessageBox'),
-      name: 'MessageBox',
-      meta: { title: 'MessageBox' }
+      path: 'general',
+      component: () => import('@/views/form/general'),
+      name: 'general',
+      meta: { title: '一般表单' }
     },
     {
-      path: 'Dialog',
-      component: () => import('@/views/elementUI/Dialog'),
-      name: 'Dialog',
-      meta: { title: 'Dialog' }
+      path: 'inline',
+      component: () => import('@/views/form/inline'),
+      name: 'inline',
+      meta: { title: '行内表单' }
     },
     {
-      path: 'Popover',
-      component: () => import('@/views/elementUI/Popover'),
-      name: 'Popover',
-      meta: { title: 'Popover' }
+      path: 'position',
+      component: () => import('@/views/form/position'),
+      name: 'position',
+      meta: { title: '对齐表单' }
     },
     {
-      path: 'Slider',
-      component: () => import('@/views/elementUI/Slider'),
-      name: 'Slider',
-      meta: { title: 'Slider' }
+      path: 'verification',
+      component: () => import('@/views/form/verification'),
+      name: 'verification',
+      meta: { title: '校验表单' }
     },
     {
-      path: 'Upload',
-      component: () => import('@/views/elementUI/Upload'),
-      name: 'Upload',
-      meta: { title: 'Upload' }
+      path: 'deVerification',
+      component: () => import('@/views/form/deVerification'),
+      name: 'deVerification',
+      meta: { title: '自定义校验' }
     },
     {
-      path: 'Form',
-      component: () => import('@/views/elementUI/Form'),
-      name: 'Form',
-      meta: { title: 'Form' }
+      path: 'dynamic',
+      component: () => import('@/views/form/dynamic'),
+      name: 'dynamic',
+      meta: { title: '动态添加' }
     },
     {
-      path: 'Message',
-      component: () => import('@/views/elementUI/Message'),
-      name: 'Message',
-      meta: { title: 'Message' }
+      path: 'number',
+      component: () => import('@/views/form/number'),
+      name: 'number',
+      meta: { title: '数字校验' }
     },
     {
-      path: 'Transfer',
-      component: () => import('@/views/elementUI/Transfer'),
-      name: 'Transfer',
-      meta: { title: 'Transfer' }
+      path: 'size',
+      component: () => import('@/views/form/size'),
+      name: 'size',
+      meta: { title: '大小控制' }
     },
     {
       path: 'mixin',
