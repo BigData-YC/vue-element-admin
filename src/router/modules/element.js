@@ -79,16 +79,16 @@ const componentsRouter = {
       meta: { title: 'Loading' }
     },
     {
-      path: 'drag-select',
-      component: () => import('@/views/components-demo/drag-select'),
-      name: 'DragSelectDemo',
-      meta: { title: 'Drag Select' }
+      path: 'input',
+      component: () => import('@/views/elementUI/Input'),
+      name: 'input',
+      meta: { title: 'Input' }
     },
     {
-      path: 'dnd-list',
-      component: () => import('@/views/components-demo/dnd-list'),
-      name: 'DndListDemo',
-      meta: { title: 'Dnd List' }
+      path: 'timeSelect',
+      component: () => import('@/views/elementUI/TimeSelect'),
+      name: 'timeSelect',
+      meta: { title: 'TimeSelect' }
     },
     {
       path: 'drag-kanban',
