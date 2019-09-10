@@ -3,7 +3,7 @@
 import Layout from '@/layout'
 
 const componentsRouter = {
-  path: '/element',
+  path: '/form',
   component: Layout,
   redirect: 'noRedirect',
   name: 'elementUI',

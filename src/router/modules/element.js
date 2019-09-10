@@ -91,10 +91,28 @@ const componentsRouter = {
       meta: { title: 'TimeSelect' }
     },
     {
-      path: 'drag-kanban',
-      component: () => import('@/views/components-demo/drag-kanban'),
-      name: 'DragKanbanDemo',
-      meta: { title: 'Drag Kanban' }
+      path: 'carousel',
+      component: () => import('@/views/elementUI/Carousel'),
+      name: 'carousel',
+      meta: { title: 'Carousel' }
+    },
+    {
+      path: 'collapse',
+      component: () => import('@/views/elementUI/Collapse'),
+      name: 'collapse',
+      meta: { title: 'Collapse' }
+    },
+    {
+      path: 'cascader',
+      component: () => import('@/views/elementUI/Cascader'),
+      name: 'cascader',
+      meta: { title: 'Cascader' }
+    },
+    {
+      path: 'select',
+      component: () => import('@/views/elementUI/Select'),
+      name: 'select',
+      meta: { title: 'Select' }
     }
   ]
 }
